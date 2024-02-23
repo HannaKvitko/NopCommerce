@@ -52,6 +52,10 @@ public List<WebElement> computerList;
 
     @FindBy(xpath = "//ul[@class='top-menu notmobile']//a[text()='Computers ']")
     public WebElement apparel;
+
+
+
+
 }
 
 
