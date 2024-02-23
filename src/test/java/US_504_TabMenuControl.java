@@ -1,7 +1,7 @@
 import org.junit.Test;
 import org.openqa.selenium.interactions.Actions;
 
-public class US_504_Test {
+public class US_504_TabMenuControl {
     Pages_505_506 pages = new Pages_505_506();
 
     @Test
