@@ -9,8 +9,7 @@ public class Pages_505_506 extends Methods_505_506 {
         PageFactory.initElements(DriverClass_US505_506.getDriver(),this);
     }
 
-   // @FindBy(xpath = "(//ul[@class='top-menu notmobile']//ul)[1]//a")
-   // public List<WebElement> computerList;
+
     @FindBy(xpath ="//ul[@class='top-menu notmobile']//a[normalize-space()='Computers']")
     public WebElement computers;
 
@@ -35,11 +34,24 @@ public class Pages_505_506 extends Methods_505_506 {
     @FindBy(xpath = "//a[text()='product-title']//a")
     public List<WebElement> giftList ;
 
+//504
+@FindBy(xpath = "(//ul[@class='top-menu notmobile']//ul)[1]//a")
+public List<WebElement> computerList;
 
+    @FindBy(xpath = "//ul[@class='top-menu notmobile']//a[text()='Computers ']")
+    public WebElement computer;
 
-    @FindBy(xpath = "//h2[@class='product-title']//a[contains(text(),'$25 Virtual Gift Card')]")
-    public WebElement physicalGifCard25 ;
+    @FindBy(xpath = "(//ul[@class='top-menu notmobile']//ul)[1]//a")
+    public List<WebElement> electronicsList;
 
-    //a[contains(text(),'$25 Virtual Gift Card')])[2]
+    @FindBy(xpath = "//ul[@class='top-menu notmobile']//a[text()='Computers ']")
+    public WebElement electronics;
+
+    @FindBy(xpath = "(//ul[@class='top-menu notmobile']//ul)[1]//a")
+    public List<WebElement> apparelList;
+
+    @FindBy(xpath = "//ul[@class='top-menu notmobile']//a[text()='Computers ']")
+    public WebElement apparel;
 }
-//h2[@class='product-title']//a
+
+
